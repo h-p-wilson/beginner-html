@@ -1,0 +1,103 @@
+<!DOCTYPE html> <!-- Declares the file as HTML 5 -->
+<html> <!-- Says everything in this section is HTML-->
+    <head> <!-- Contains info about the website and is where Javascript and CSS files are loaded-->
+        <meta charset="utf-8"> <!-- UTF-8 is a type of Unicode encoding. This translates words ect into bytes-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- This important for responsive websites. This says that the website should be the same width as the device viewing it. The initial zoom sets the zoom on a website. 1 means not zoomed in or out -->
+        <title>My First Website  </title> <!-- Gives the webpage it's title -->
+    </head>
+
+    <body> <!-- Everything seen on the page will normally be in the body tag -->
+        <h1>My First Website </h1> <!-- h1, h2... tags are used for headings. h1 is the hightest in priority-->
+        <h2>An HTML Playground</h2>
+        <h3>An HTML Playground</h3>
+        <h4>An HTML Playground</h4>
+        <h5>An HTML Playground</h5>
+        <h6>An HTML Playground</h6>
+
+         
+        This is my very first website and I'm <b>extremely excited!!!!!</b> <!-- <b></b> indicates that whatever's inbetween the two will be in bold-->
+        
+        <p> <!-- The p tag separates text into paragraphs -->
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget tincidunt erat, quis pulvinar felis. Aenean scelerisque erat in sapien placerat, quis viverra lorem congue. Praesent lobortis venenatis metus et pellentesque. Cras vel ornare purus, non ultrices risus. Curabitur dapibus est in tortor accumsan, eget ultricies sem volutpat. Integer eget ex non diam lobortis mollis a viverra sapien. Pellentesque ut lacus pellentesque, mollis velit sit amet, porttitor leo. Ut condimentum urna nec est commodo, sit amet rhoncus nibh gravida. Etiam aliquam mi ex, in imperdiet diam vestibulum et. 
+        </p> 
+        <p>
+            Ut nisl magna, pharetra eget ligula et, cursus convallis turpis. Etiam at sollicitudin mauris. Donec luctus dictum consectetur. Integer ac tellus non nulla feugiat hendrerit sed ac nibh. Aliquam eget sollicitudin tortor. Aliquam sodales purus in sagittis blandit. Etiam a tincidunt turpis. Duis quis erat bibendum, tincidunt felis sed, vehicula eros. Aliquam id nunc et neque viverra pulvinar vel ac nibh. Nulla dignissim diam purus, at tempor urna blandit vel. Cras consectetur ante eu nisl faucibus, eget tincidunt nulla posuere. Vivamus volutpat diam sit amet tortor ultrices aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mollis nulla. 
+        </p>
+
+
+        Fusce quis orci efficitur augue faucibus bibendum et vel magna. <br> <!-- New line, doesn't need a closing tag as it is a void element -->
+        <br/> <!-- This was a requirement in old HTML and is read as <br> -->
+        <b>Maecenas scelerisque sodales nulla, in blandit enim mattis non. </b> <br> 
+        <i>Morbi molestie arcu eu est malesuada, tincidunt placerat nulla lacinia.</i> <br> <!-- <i> is for italics --> 
+        <u> Nunc non purus ac enim pharetra vulputate. </u> <br> <!-- Underline--> 
+        <em> Nullam efficitur porta ipsum quis gravida. </em> <br> <!-- Emphasise, default is italics -->
+        <strong> Aliquam varius, libero in vestibulum convallis, ligula est egestas sem, sit amet suscipit nisi nibh sed lorem. </strong> <br> <!-- Strong, default is bold. -->
+        <hr> <!-- Horizontal rule tag-->
+        <a href="https://pointerpointer.com/" target="_blank"> Phasellus at malesuada leo, et dictum sapien. </a> <br> <!-- Anchor, this is the link tag, Enter the link after href=. Target decides if the page should be opened in the same tab or a new tab. _blank means new tab, the default is same tab-->
+        
+        Suspendisse luctus luctus tortor eget imperdiet. Aenean vehicula cursus orci, a porttitor velit scelerisque ut. Proin lobortis nibh nibh, sed suscipit elit feugiat at. Mauris arcu augue, rutrum luctus ultrices id, pellentesque eu velit. Integer interdum eu ipsum vitae vehicula. Duis posuere faucibus lectus ornare sagittis. Vestibulum sed velit aliquam, aliquet orci eu, tincidunt lacus. Nam nisl eros, maximus eu ante a, imperdiet pharetra urna. Aenean lacus libero, rutrum nec euismod et, egestas vel diam. <br>
+
+        <img src="https://via.placeholder.com/250x150"> <br> <!-- Image tag, src is the source for the image-->
+        <img src = "him.gif" border="10"> <i><u><b>Here comes the boi</b></u></i> <br> <!-- Image from computer, have it in same file as html, border adds border -->
+        
+        <ul> <!-- Unordered list-->
+            <li>apples</li> <!-- Place anything to list inside <li>-->
+                <ul>
+                    <li>braeburn</li>
+                    <li>pink lady</li>
+                    <li>russet</li>
+                </ul>
+            <li>oranges</li>
+            <li>bananas</li>
+            <li>pineapples</li>
+        </ul>
+        <ol> <!-- Ordered list  -->
+            <li>carrots</li>
+            <li>pumpkin</li>
+            <li>brocolli</li>
+            <li>peas</li>
+        </ol>
+
+        <table border="10" cellpadding="10" cellspacing="0"> <!-- Table tag with border, cellpadding and no cell spacing-->
+            <tr> <!--table headers-->
+                <th></th>
+                <th>month</th>
+                <th>rent</th>
+                <th colspan=2>utilities</th> <!--lets a header span more than one columns-->
+                <th>groceries</th>
+                <th>eating out</th>
+                <th>entertainment</th>
+            </tr>
+            <tr> <!-- data-->
+                <td rowspan="3">Autumn</td>
+                <td>June</td>
+                <td>£1500</td>
+                <td>£100</td>
+                <td>£50</td>
+                <td>£350</td>
+                <td>£100</td>
+                <td>£50</td>
+            </tr>
+            <tr> <!-- data-->
+                <td>July</td>
+                <td>£1500</td>
+                <td>£100</td>
+                <td>£50</td>
+                <td>£350</td>
+                <td>£100</td>
+                <td>£50</td>
+            </tr>
+            <tr> <!-- data-->
+                <td>August</td>
+                <td>£1500</td>
+                <td>£100</td>
+                <td>£50</td>
+                <td>£350</td>
+                <td>£100</td>
+                <td>£50</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
